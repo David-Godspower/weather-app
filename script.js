@@ -201,3 +201,5 @@ document.getElementById('toggle-temp').addEventListener('click', () => {
         tempDisplay.textContent = `${fahrenheit.toFixed(1)}°F`;
     }
 });
+
+document.getElementById("year").textContent = new Date().getFullYear();
